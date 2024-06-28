@@ -1,0 +1,203 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9),
+  rgba(0, 0, 0, 0.2)), 
+    url(neon-gaming-keyboard-setup-controller.jpg);
+    background-size: 100vw 100vh ;
+}
+
+#nav_section {
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #333;
+color: white;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+}
+
+nav ul li {
+margin: 10px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+border-radius: 5px;
+padding: 10px 20px;
+}
+
+nav ul li a:hover {
+background: rgba(11, 222, 249, 0.966);
+color: black;
+box-shadow: 0 0 10px rgba(24, 137, 199, 0.887);
+}
+
+.searchbox {
+height: 30px;
+display: flex;
+padding: 2px 7px;
+margin: 5px;
+background: #333;
+border-radius: 5px;
+align-items: center;
+color: white;
+margin-right: 10px;
+}
+
+.searchbox input:hover {
+height: 30px;
+/* background: rgba(15, 192, 215, 0.765); */
+box-shadow: 0 0 20px rgba(24, 137, 199, 0.887);
+}
+
+.searchbox input {
+width: 150px;
+color: white;
+margin-right: 10px;
+outline: none;
+border: none;
+font-size: 20px;
+padding-left: 10px;
+background-color: transparent;
+}
+
+
+
+#SIGN-UP {
+    width: 430px;
+    height: 620px;
+    background-color:rgba(128, 128, 128, 0.512);
+    padding: 1%;
+    padding-top: 3%;
+    border-radius: 50px;
+    /* border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    margin-left:35%;
+    margin-top:5%;
+    box-shadow: 10px 10px 10px ;
+}
+h1{
+    text-align: center;
+}
+hr{
+    background-color: black;
+    color: black;
+}
+input{
+    margin-top: 5%;
+    width:80%;
+    padding-left: 5%;
+    height:40px;
+    border-radius: 10px;
+    background-color:rgba(176, 176, 176, 0.963);
+}
+input:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0 0 20px rgba(24, 137, 199, 0.887);
+}
+#SIGN-UP-btn{
+    width: 55%;
+    height: 45px;
+    margin-top: 8%;
+    font-size: 20px;
+}
+#SIGN-UP-btn:hover {
+    background: #ddd;
+    color: black;
+    box-shadow: 0 0 20px rgba(24, 137, 199, 0.887);
+}
+p{
+    font-size: 20px;
+}
+a{  
+    font: 10px;
+    text-decoration: none;
+    color:black;
+}
+#icon{
+    margin-left: 3%;
+    margin-right:3%;
+    margin-top: 5%;
+    margin-bottom:15px ;
+    color: white;
+}
+
+
+    /* Responsive Design its */
+    @media (max-width: 768px) {
+        body {
+            background-size: cover;
+        }
+    
+        #nav_section {
+            flex-direction: column;
+            padding: 5px;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        nav ul li {
+            margin: 5px 0;
+        }
+    
+        nav ul li a {
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+    
+        .searchbox {
+            width: 100%;
+            margin: 10px 0;
+        }
+    
+        .searchbox input {
+            width: 80%;
+        }
+    
+        #SIGN-UP {
+            width: 80%;
+            height: 550px;
+            margin:50px 10%;
+            padding: 2%;
+            border-radius: 30px;
+            border-bottom-left-radius: 60px;
+            border-top-right-radius: 60px;
+        }
+    
+        input {
+            width: 90%;
+            height: 35px;
+            margin: 10px 0;
+        }
+    
+        #SIGN-UP-btn {
+            width: 70%;
+            height: 40px;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        #icon {
+            font-size: 20px;
+            margin: 5px;
+        }
+    }
+    
